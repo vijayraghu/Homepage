@@ -22,10 +22,10 @@ var app = angular.module('aggregationdemo', []).
           controller: ProjectCtrl,
           activetab: 'projects'
         }).
-        when('/privacy', {
-          templateUrl: 'pages/privacy.html',
+        when('/experience', {
+          templateUrl: 'pages/experience.html',
           controller: PrivacyCtrl,
-          activetab: 'privacy'
+          activetab: 'experience'
         }).
         otherwise({ redirectTo: '/' });
     }]).run(['$rootScope', '$http', '$browser', '$timeout', "$route", function ($scope, $http, $browser, $timeout, $route) {
