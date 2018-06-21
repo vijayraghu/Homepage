@@ -16,8 +16,8 @@
 function HomeCtrl($scope, $http) {
 }
 
-function ProjectCtrl($scope, $http) {
+function SolutionCtrl($scope, $http) {
 }
 
-function PrivacyCtrl($scope, $http, $timeout) {
+function ExperienceCtrl($scope, $http, $timeout) {
 }
