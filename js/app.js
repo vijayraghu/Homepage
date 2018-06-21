@@ -19,12 +19,12 @@ var app = angular.module('aggregationdemo', []).
         when('/', { templateUrl: 'pages/index.html', activetab: 'projects', controller: HomeCtrl }).
         when('/project/:projectId', {
           templateUrl: function (params) { return 'pages/' + params.projectId + '.html'; },
-          controller: ProjectCtrl,
+          controller: SolutionCtrl,
           activetab: 'projects'
         }).
         when('/experience', {
           templateUrl: 'pages/experience.html',
-          controller: PrivacyCtrl,
+          controller: ExperienceCtrl,
           activetab: 'experience'
         }).
         otherwise({ redirectTo: '/' });
