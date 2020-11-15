@@ -13,7 +13,7 @@
 'use strict';
 
 // angular.js main app initialization
-var app = angular.module('aggregationdemo', []).
+var app = angular.module('onboardingdemo', []).
     config(['$routeProvider', function ($routeProvider) {
       $routeProvider.
         when('/', { templateUrl: 'pages/index.html', activetab: 'projects', controller: HomeCtrl }).
